@@ -10,7 +10,7 @@ $color4:rgb(61, 26, 64);
 }
 
 html {
-    font-size: 62,5%;
+    font-size: 10px;
 }
 
 body {
@@ -66,7 +66,7 @@ main {
     #main-content {
         grid-area: area2;
         background-color: $color1;
-        padding: 55px;
+        padding: 24px;
 
         & > div {
             display: flex;
@@ -107,7 +107,7 @@ main {
     #donate-content {
         grid-area: area3;
         background-color: $color2;
-        padding: 55px;
+        padding: 24px;
         display: flex;
         align-items: center;
         column-gap: 50px;
@@ -290,32 +290,32 @@ footer {
                 position: inherit;
                 row-gap: 28px;
                 h1 {
-                    font-size: 30px;
+                    font-size: 1.6rem;
                 }
             }
             #context {
                 p {
-                    font-size: 15px;
+                    font-size: 0.8rem;
                 }
             }
 
             article {
                 p {
-                    font-size: 15px;
+                    font-size: 0.8rem;
                     
                 }
             }
             
         }
         span {
-            font-size: 22px;
+            font-size: 1.2rem;
         }
         #donate-content {
             article {
                 padding:10px;
 
                 p, h2 {
-                    font-size: 15px;
+                    font-size: 0.8rem;
                 }
             }
             div a {
@@ -325,8 +325,11 @@ footer {
     }
     footer {
         p {
-            font-size: 15px;
+            font-size: 0.8rem;
         }
+    }
+    img {
+        transform: scale(0.8);
     }
 }
 

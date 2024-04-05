@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62, 5%;
+  font-size: 10px;
 }
 
 body {
@@ -55,7 +55,7 @@ main #empty-left {
 main #main-content {
   grid-area: area2;
   background-color: rgb(34, 34, 34);
-  padding: 55px;
+  padding: 24px;
 }
 main #main-content > div {
   display: flex;
@@ -91,7 +91,7 @@ main #main-content article p {
 main #donate-content {
   grid-area: area3;
   background-color: rgb(70, 70, 70);
-  padding: 55px;
+  padding: 24px;
   display: flex;
   align-items: center;
   -moz-column-gap: 50px;
@@ -245,28 +245,31 @@ a:hover:not(.desabilitado) {
     row-gap: 28px;
   }
   main #main-content > div h1 {
-    font-size: 30px;
+    font-size: 1.6rem;
   }
   main #main-content #context p {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
   main #main-content article p {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
   main span {
-    font-size: 22px;
+    font-size: 1.2rem;
   }
   main #donate-content article {
     padding: 10px;
   }
   main #donate-content article p, main #donate-content article h2 {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
   main #donate-content div a {
     -moz-column-gap: 8px;
          column-gap: 8px;
   }
   footer p {
-    font-size: 15px;
+    font-size: 0.8rem;
+  }
+  img {
+    transform: scale(0.8);
   }
 }/*# sourceMappingURL=style.css.map */
