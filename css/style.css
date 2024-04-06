@@ -123,7 +123,7 @@ main span {
   font: 900 30px "Montserrat", sans-serif;
 }
 
-.desabilitado {
+.disabled {
   cursor: default;
 }
 
@@ -140,6 +140,10 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover:not(.disabled) {
+  opacity: 60%;
+  transition: 400ms ease-in-out;
+}
 
 footer {
   font-family: "Montserrat" sans-serif;
@@ -153,11 +157,6 @@ footer {
 }
 footer a img {
   padding-right: 10px;
-}
-
-a:hover:not(.desabilitado) {
-  opacity: 60%;
-  transition: 400ms ease-in-out;
 }
 
 @media screen and (max-width: 1100px) {

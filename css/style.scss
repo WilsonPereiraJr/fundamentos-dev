@@ -16,7 +16,7 @@ html {
 body {
     font-family: "Fira Code", monospace;
     color: white;
-    // width: 100vw;
+    
 }
 
 header {
@@ -86,7 +86,7 @@ main {
             column-gap: 28px;
             padding-top: 50px;
             p {
-            
+
                 font-size: 15px;
             }
         }
@@ -142,7 +142,7 @@ main {
     }
 }
 
-.desabilitado {
+.disabled {
     cursor: default;
 
 }
@@ -159,6 +159,10 @@ a {
     font-family: "Lato", sans-serif;
     text-decoration: none;
     color:white;
+    &:hover:not(.disabled) {
+        opacity: 60%;
+        transition: 400ms ease-in-out;
+     }
     
 }
 
@@ -178,14 +182,11 @@ footer {
 }
  
 
- a:hover:not(.desabilitado) {
-    opacity: 60%;
-    transition: 400ms ease-in-out;
- }
+ 
 
 @media screen and (max-width: 1100px) {
     main {
-    grid-template-columns: 90px minmax(300px, 900px) 90px;
+        grid-template-columns: 90px minmax(300px, 900px) 90px;
     }
  };
 
